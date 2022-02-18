@@ -1,6 +1,6 @@
 # React Express Starter code
 
-## Running the project
+## Quick Guide
 
 First, clone the project
 
@@ -14,13 +14,25 @@ move inside the directory
 cd react-express-app
 ```
 
-install the all dependencies
+next move into the server and install dependencies and start the server
 
 ```bash
+cd server
 npm install
+node index.js
 ```
 
-Start the application using this command:
+Open another terminal then cd into the client, install dependencies and start the server
+
+```bash
+cd client
+npm install
+npm start
+```
+
+Navigate to `http://localhost:3000/` and click on button. You will get the response from the backend
+
+If you would like to run the backend Express server and the react server at the same time use the following command:
 
 ```bash
 # Run the client & server with concurrently
@@ -28,3 +40,13 @@ npm run dev
 ```
 
 Note: Server runs on http://localhost:5000 and client on http://localhost:3000
+
+If you get error like this use this command
+
+```bash
+sudo kill -9 $(sudo lsof -t -i:<port number>)
+```
+
+![](port-error.png)
+
+---
