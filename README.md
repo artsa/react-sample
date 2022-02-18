@@ -11,7 +11,7 @@ git clone https://github.com/priyaraj7/React-express-starter-code.git
 move inside the directory
 
 ```bash
-cd react-express-app
+cd React-express-starter-code
 ```
 
 next move into the server and install dependencies and start the server
@@ -32,7 +32,7 @@ npm start
 
 Navigate to `http://localhost:3000/` and click on button. You will get the response from the backend
 
-If you would like to run the backend Express server and the react server at the same time use the following command:
+If you would like to run the backend Express server and the react server at the same time use the following command in server side terminal:
 
 ```bash
 # Run the client & server with concurrently
